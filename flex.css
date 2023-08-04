@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-cont{
+    text-align: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: red;
+
+}
+
+.nav-cont h1{
+    color: white;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.items{
+    margin: 20px;
+    width: 450px;
+    height: 650px;
+    background-color: white;
+}
+
+.head{
+    text-align: center;
+    font-style: italic;
+    font-size: 200%;
+}
+
+.para{
+    margin: 10px 5px;
+    font-size: 120%;
+}
+
+.list h3{
+    margin: 10px 0;
+}
+.list{
+    margin: 10px 20px 80px 20px;
+}
+
+.list li{
+    font-size: 120%;
+}
+
+a{
+    display: inline;
+    font-size: 130%;
+    text-decoration: none;
+    /* margin: 30px  0 0 110px; */
+    color: white;
+    width: 30px;
+    height: 15px;
+    background-color: blue;
+    padding: 10px;
+    margin: 40% 30%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    
+    .nav-cont{
+        height: 8vh;
+    }
+    .nav-cont h1{
+        font-size: 1.9rem;
+        padding-top: 16px;
+    }
+    .container{
+        height: 150vh;
+    }
+
+    .container{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+    .items{
+        /* margin-top: 200px; */
+        font-size: 0.7em;
+        height: 400px;
+    }
+    
+}
+@media screen and (min-width:480px) and (max-width: 1000px) {
+    
+    .nav-cont{
+        background-color: rgb(0, 255, 0);
+    }
+    .nav-cont h1{
+        color: black;
+
+    }
+    .container{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        height: 300vh;
+        background-color: rgb(251, 189, 75);
+    }
+    .items{
+        /* margin-top: 200px; */
+        font-size: 0.9em;
+        height: 550px;
+        width: 550px;
+
+
+    }
+    
+}
+
+@media screen and (min-width:100px) {
+    .container{
+        flex-wrap: wrap;
+        height: 200%;
+    }
+
+    
+}

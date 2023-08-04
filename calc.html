@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <form action="" id="cal">
+        <label for="num-1">Enter number 1 </label>
+        <input  type="number" name="num-1" id="num-1"><br><br>
+        <label for="num-2">Enter number 2 </label>
+        <input type="number" name="num-2" id="num-2"><br><br>
+        <div class="opreation" id="opreation">
+            <button type="button" class="btn" id="add" onclick="Add()"> + </button>
+            <button type="button" class="btn" id="sub" onclick="Sub()"> - </button>
+            <button type="button" class="btn" id="mul" onclick="Mul()"> * </button>
+            <button type="button" class="btn" id="divide" onclick="Division()"> / </button>
+        </div><br><br>  
+        <label for="result">Result :</label>
+        <input type="number" id="result"><br><br>
+
+        <script src="calc.js"></script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.btn{
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    border : none;
+    color: white;
+    text-align: center;
+    margin: 10px 15px;
+}
+#cal{
+    margin: 50px 0;
+}
